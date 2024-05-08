@@ -257,17 +257,12 @@ for line in lines:
         
 print('done inserting')
 
-inicio = 0
 for i in range(0,len(seeds)-1,2):
-    inicio = time.time()
     for j in range(seeds[i],seeds[i] + seeds[i+1]+1):
         seed = j
         for k in range(len(avl_list)):
             seed = avl_list[k].find(avl_list[k].root, seed)
         result = min(result,seed)
-    fin = time.time()
-    print(f'done {seeds[i]}, {(fin - inicio)/60}')
 
-fin = time.time()
-print(f'result: {result}, {(fin - inicio)/60}')
+print(f'result: {result}')
 print('end')
