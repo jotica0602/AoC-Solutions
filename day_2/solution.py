@@ -1,7 +1,7 @@
 import os
 import re
 
-with open('input1.txt') as file:
+with open('input.txt') as file:
     text = file.read()
 
 class Game:

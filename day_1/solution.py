@@ -103,7 +103,7 @@ trie.insert('nine')
 
 lines = []
 
-with open('input2.txt', 'r') as file:
+with open('input.txt', 'r') as file:
     text = file.read()
     lines = text.split()
 
