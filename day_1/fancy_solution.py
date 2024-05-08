@@ -23,7 +23,7 @@ def parse(number_string: str, flag = False):
         number_string = '9'
     return number_string
 
-with open('desktop/aoc/trebuchet/input2.txt') as file:
+with open('input2.txt') as file:
     text = file.read()
     lines = text.split()
     

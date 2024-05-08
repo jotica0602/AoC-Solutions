@@ -103,7 +103,7 @@ trie.insert('nine')
 
 lines = []
 
-with open('Desktop/AoC/Trebuchet/input2.txt', 'r') as file:
+with open('input2.txt', 'r') as file:
     text = file.read()
     lines = text.split()
 
