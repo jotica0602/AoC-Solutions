@@ -1,0 +1,1 @@
+Part 2 solution took more than 1h so i'm planning to improve it.
