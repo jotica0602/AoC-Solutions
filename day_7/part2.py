@@ -124,5 +124,5 @@ ans = 0
 for i in range(len(result)):
     ans += int(result[i][1]) * (i+1)
     
-print(len(result))
+# print(len(result))
 print(ans)
