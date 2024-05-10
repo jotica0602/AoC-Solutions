@@ -94,7 +94,6 @@ for card_and_bid in cards_and_bids:
                 continue
             else:
                 cards[label] = get_matches(card_label,label)
-        # print(cards)
         set = classify(cards)
         hands_lists[set].append((card_and_bid[0],card_and_bid[1]))
         
@@ -102,17 +101,13 @@ for card_and_bid in cards_and_bids:
 
 for hand_list in hands_lists:
     sort(hand_list)
-    # print(hand_list)
 
 result = []
 for hand_list in hands_lists:
     result += hand_list
 ans = 0
 
-# print(result)
-
 for i in range(len(result)):
     ans += int(result[i][1]) * (i+1)
     
-print(len(result))
 print(ans)
