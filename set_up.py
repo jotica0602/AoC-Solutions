@@ -23,5 +23,3 @@ else:
 
     new_folder = current_directory + '/' + 'day_' + last_day_number
     os.mkdir(new_folder)
-        
-print('end')
