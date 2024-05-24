@@ -1,2 +1,2 @@
-python set_up.py
+python3 set_up.py
 code .

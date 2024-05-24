@@ -29,7 +29,7 @@ ans = 0
 for sequence in sequences:
     ans += solve(sequence)
 
-print(sequences.__len__())
+print(len(sequences))
 print(ans)
 print('end')
 
